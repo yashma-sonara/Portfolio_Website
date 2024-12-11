@@ -74,16 +74,16 @@ export const navItems = [
       id: 1,
       title: "Meal Match—Morgan Stanley CodeToGive Hackathon",
       des: "This food distribution platform for FoodBank Singapore connects donors with beneficiaries, featuring real-time inventory tracking, easy donor registration, a metrics dashboard, and a matching algorithm to streamline food distribution and reduce waste.",
-      img: "/p1.svg",
-      iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
+      img: "/ms.png",
+      iconLists: ["/js.png", "/react.svg", "/firebase.svg"],
       link: "https://github.com/Joentze/CodeToGive-Team9",
     },
     {
       id: 2,
       title: "Trading Platform—GIC CodeToImpact Hackathon",
       des: "A trading platform to automate instrument verification, streamline new investment requests, with real time risk limit updates and concurrent trade handling.",
-      img: "/p2.svg",
-      iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
+      img: "/gic.jpeg",
+      iconLists: ["/mongo.svg", "/streamlit.svg", "/spring.svg"],
       link: "https://github.com/adrianhajdin/zoom-clone",
     },
     {
@@ -173,19 +173,19 @@ export const navItems = [
   export const workExperience = [
     {
       id: 1,
-      title: "Frontend Engineer Intern",
-      desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+      title: "Incoming Summer Analyst @Morgan Stanley",
+      desc: "Institutional Securities Tech Division",
       className: "md:col-span-2",
       thumbnail: "/exp1.svg",
     },
     {
       id: 2,
-      title: "Mobile App Dev - JSM Tech",
-      desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
+      title: "Software Engineer @Growthbeans",
+      desc: "Designed and developed web app for a mental wellbeing organization",
       className: "md:col-span-2", // change to md:col-span-2
       thumbnail: "/exp2.svg",
     },
-    {
+    /*{
       id: 3,
       title: "Freelance App Dev Project",
       desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
@@ -198,7 +198,7 @@ export const navItems = [
       desc: "Developed and maintained user-facing features using modern frontend technologies.",
       className: "md:col-span-2",
       thumbnail: "/exp4.svg",
-    },
+    },*/
   ];
   
   export const socialMedia = [
