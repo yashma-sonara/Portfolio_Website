@@ -9,6 +9,12 @@ import {
 import Link from "next/link";
 import { cn } from "../../utils/cn";
 
+interface NavItem {
+  name: string;
+  link: string;
+  icon?: JSX.Element;
+}
+
 export const FloatingNav = ({
   navItems,
   className,
@@ -71,7 +77,7 @@ export const FloatingNav = ({
           border: "1px solid rgba(255, 255, 255, 0.125)",
         }}
       >
-        {navItems.map((navItem: any, idx: number) => (
+        {navItems.map((navItem: NavItem, idx: number) => (
           <Link
             key={`link=${idx}`}
             href={navItem.link}
